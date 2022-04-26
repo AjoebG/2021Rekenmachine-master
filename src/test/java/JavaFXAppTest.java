@@ -1,4 +1,3 @@
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -7,7 +6,8 @@ class JavaFXAppTest {
     void aDummyTest() {
         assertEquals(0,0);
     }
-    @Test
+
+  @Test
     public void divideTest(){
         JavaFXApp test = new JavaFXApp();
 
@@ -17,4 +17,5 @@ class JavaFXAppTest {
         Assertions.assertEquals(expected, actual);
 
     }
+
 }
