@@ -15,5 +15,6 @@ class JavaFXAppTest {
         int actual = test.computeDivide(4,2);
 
         Assertions.assertEquals(expected, actual);
+
     }
 }
