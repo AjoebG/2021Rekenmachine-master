@@ -7,8 +7,9 @@ class JavaFXAppTest {
         assertEquals(0,0);
     }
 
+
     @Test
-    void add_number_with_number() {
+    public void add_number_with_number() {
         int number1 = 7;
         int number2 = 4;
 
@@ -16,5 +17,16 @@ class JavaFXAppTest {
         int actual = JavaFXApp.computeAdd(number1, number2);
 
         assertEquals(expected, actual);
+    }
+
+  @Test
+    public void divideTest(){
+        JavaFXApp test = new JavaFXApp();
+
+        int expected = 2;
+        int actual = test.computeDivide(4,2);
+
+        Assertions.assertEquals(expected, actual);
+
     }
 }
