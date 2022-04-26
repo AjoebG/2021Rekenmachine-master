@@ -33,7 +33,7 @@ public class JavaFXApp extends Application {
         return number1 + number2;
     }
 
-    protected int computeMultiply (int number1, int number2) {
+    protected static int computeMultiply(int number1, int number2) {
         //deze mooie code is door ajoeb geschreven
         return number1 * number2;
     }

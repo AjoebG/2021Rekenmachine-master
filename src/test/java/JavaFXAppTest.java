@@ -9,6 +9,11 @@ class JavaFXAppTest {
 
 
     @Test
+    public void multiplyTest() {
+        int actual = JavaFXApp.computeMultiply(3, 3);
+        assertEquals(9,actual);
+
+    @Test
     public void add_number_with_number() {
         int number1 = 7;
         int number2 = 4;
@@ -19,7 +24,7 @@ class JavaFXAppTest {
         assertEquals(expected, actual);
     }
 
-  @Test
+    @Test
     public void divideTest(){
         JavaFXApp test = new JavaFXApp();
 
